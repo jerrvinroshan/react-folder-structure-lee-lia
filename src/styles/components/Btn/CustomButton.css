@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+}
+.bg{
+    color: rgb(226, 122, 43);
+    padding: 12px 24px;
+    background-color: beige;
+    display: inline-block;
+    margin-top: 12px;
+}
+
+.bg:hover{
+    color: rgb(152, 72, 10);
+    background-color: rgb(240, 240, 97);
+}

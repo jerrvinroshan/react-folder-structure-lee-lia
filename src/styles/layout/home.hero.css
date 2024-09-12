@@ -1,0 +1,60 @@
+.Home__heroSection{
+    padding-top: 112px;
+}
+/* .HeroSectionImg {
+  width: 100%;
+  padding-top: 112px;
+} */
+
+.Home__heroSectionImg{
+    background-image: url("../../assets/image/homeHeroSection.gif");
+    min-height: 583px;
+    max-height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Home__heroSection__content{
+    max-width: 1018px;
+    margin-inline: auto;
+    padding-top: 168px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.Home__heroSection__heading--container{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.Home__heroSection__heading--p{
+    max-width: 482px;
+    font-size: 12px;
+}
+
+.PrimaryBtn{
+    padding: 16px 10px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    max-width: 144px;
+    border-radius: 16px;
+    max-height: 34px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnContainer{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnNametext{
+    font-size: 12px;
+}

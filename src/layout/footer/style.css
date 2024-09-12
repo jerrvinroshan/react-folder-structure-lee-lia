@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.Bg{
+    background-color: black; 
+    margin-top: 128px;
+    padding-top: 98px;
+}
+
+.FooterContainer{
+    max-width: 1232px;
+    margin-inline: auto;
+    padding-bottom: 98px;
+}
+
+.LogoContainer{
+    max-width: 272px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.DetailContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.FooterImg{
+    width: 170px;
+    height: 64px;
+}
+
+.detail{
+    color: white;
+    font-size: 12px;
+}
+
+.Copyright{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+    padding-block: 32px;
+}
