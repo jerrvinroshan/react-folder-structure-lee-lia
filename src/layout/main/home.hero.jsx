@@ -1,7 +1,7 @@
 import React from "react";
 import "../../styles/layout/home.hero.css";
 import CustomButton from "../../components/Btn/CustomButton";
-import rightArrow from "../../assets/image/rightArrow.svg"
+import rightArrow from "../../assets/image/rightArrow.svg";
 
 function HeroSection() {
   return (
