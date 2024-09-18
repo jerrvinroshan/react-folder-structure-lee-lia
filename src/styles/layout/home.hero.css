@@ -30,9 +30,17 @@
     gap: 8px;
 }
 
+.Home__heroSection__heading--h1{
+    font-family: var(--Playfair);
+    font-size: var(--Heading1);
+    font-weight: var(--Bold);
+}
+
 .Home__heroSection__heading--p{
     max-width: 482px;
-    font-size: 12px;
+    font-size: var(--BodyText);
+    font-family: var(--Lato);
+    font-weight: var(--Regular);
 }
 
 .PrimaryBtn{
@@ -56,5 +64,6 @@
 }
 
 .btnNametext{
-    font-size: 12px;
+    font-size: var(--BodyText);
+    font-family: var(--Lato);
 }

@@ -1,4 +1,21 @@
-.Absolute{
-    position: absolute;
-    top: 50%;
+@import url("https://fonts.googleapis.com/css2?family=Amiko:wght@400;600;700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+
+:root {
+  --Playfair: "Playfair Display", serif;
+  --Lato: "Lato", sans-serif;
+  --Amiko: "Amiko", serif;
+  --Heading1: 48px;
+  --Heading2: 36px;
+  --Card: 34px;
+  --Heading3: 24px;
+  --Heading4: 20px;
+  --NbFont: 14px;
+  --BodyText: 12px;
+  --Bold: 700;
+  --Regular: 400;
+}
+
+.Absolute {
+  position: absolute;
+  top: 50%;
 }

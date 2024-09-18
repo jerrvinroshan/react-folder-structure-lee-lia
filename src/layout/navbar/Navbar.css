@@ -27,8 +27,11 @@
 .NavBarLink{
     color: white;
     text-decoration: none;
+    font-family: var(--Playfair);
+    font-size: var(--NbFont);
+    font-weight: var(--Regular);
 }
 
 .NavBarLink.active{
-    font-weight: 700;
+    font-weight: var(--Bold);
 }
