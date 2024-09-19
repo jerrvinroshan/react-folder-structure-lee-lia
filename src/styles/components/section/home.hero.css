@@ -7,9 +7,9 @@
 } */
 
 .Home__heroSectionImg{
-    background-image: url("../../assets/image/homeHeroSection.gif");
-    min-height: 583px;
-    max-height: 650px;
+    background-image: url("../../../assets/image/homeHeroSection.gif");
+    min-height: 626px;
+    max-height: 626px;
     background-size: cover;
     background-repeat: no-repeat;
 }

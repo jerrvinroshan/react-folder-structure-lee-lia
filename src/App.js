@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles/global.css";
 import "./App.css";
-import Home from "./pages/home";
+import Index from "./pages/index";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Business from "./pages/business";
 import Careers from "./pages/career";
@@ -13,7 +13,7 @@ function App() {
     <BrowserRouter>
       <Routes>
        
-        <Route  path="/" index element={<Home />} />
+        <Route  path="/" index element={<Index />} />
         <Route path="/business" element={<Business/>} />
         <Route path="/career" element={<Careers/>} />
         <Route path="/newsroom" element={<NewsRoom/>} />

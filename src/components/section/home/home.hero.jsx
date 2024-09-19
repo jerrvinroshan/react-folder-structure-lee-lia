@@ -1,9 +1,9 @@
 import React from "react";
-import "../../styles/layout/home.hero.css";
-import CustomButton from "../../components/Btn/CustomButton";
-import rightArrow from "../../assets/image/rightArrow.svg";
+import "../../../styles/components/section/home.hero.css";
+import CustomButton from "../../Btn/CustomButton";
+import rightArrow from "../../../assets/image/rightArrow.svg";
 
-function HeroSection() {
+function HomeHeroSection() {
   return (
     <>
       <div className="Home__heroSection">
@@ -39,4 +39,4 @@ function HeroSection() {
   );
 }
 
-export default HeroSection;
+export default HomeHeroSection;

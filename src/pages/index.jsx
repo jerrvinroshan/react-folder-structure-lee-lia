@@ -2,16 +2,17 @@ import React from "react";
 import "../styles/pages/home.css";
 import NavBar from "../layout/navbar/index.jsx";
 import Footer from "../layout/footer/index.jsx";
-import HeroSection from "../layout/main/home.hero.jsx";
+import Home from "../layout/main/home.jsx"
 
-function Home() {
+
+function Index() {
   return (
     <>
       <NavBar />
-      <HeroSection />
+      <Home />
       <Footer />
     </>
   );
 }
 
-export default Home;
+export default Index;

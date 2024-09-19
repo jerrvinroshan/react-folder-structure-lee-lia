@@ -2,7 +2,7 @@ import React from "react";
 import { Outlet, NavLink} from "react-router-dom";
 import logo from "./brand/Lee&LiaWhitelogo.png";
 import './Navbar.css'
-import '../../pages/home'
+import '../../pages'
 
 function NavBar() {
   return (
